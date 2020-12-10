@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<title>Task4 by bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<!-- Font Awesom -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<!-- Font Family -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Header -->
+	<header id="header" class="container">
+		<div class="row p-4">
+			<div class="col-md-2 font-weight-lighter">
+				<span class="text-monospace text-danger"><h1>oslo</h1></span>
+			</div>
+			<div class="col-md-10 ml-auto mt-1">
+				<ul class="nav justify-content-end">
+				    <li class="nav-item">
+				      <a class="nav-link text-dark mt-1" href="#">FEATURES</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link text-dark mt-1 mr-5" href="#">REVIEWS</a>
+				    </li>
+				    <li class="nav-item nav-pills">
+				      <a class="nav-link active bg-danger btnn" href="#" style="padding: 12px 42px;">SIGN UP</a>
+				    </li>
+	  			</ul>
+			</div>
+		</div>	
+	</header>
+
+<!-- Carousel slider at banner -->
+
+<div id="slider">
+	<ul class="slides">
+		<li class="slide"><img  class="slide" src="b1.jpg" /></li>
+		<li class="slide"><img  class="slide" src="b2.jpg" /></li>
+		<li class="slide"><img  class="slide" src="b3.jpg" /></li>
+	</ul>
+	<div class="arrow">
+		<i class="arrowLeft fa fa-angle-double-left" aria-hidden="true"></i>
+		<i class="arrowRight fa fa-angle-double-right" aria-hidden="true"></i>
+	</div>
+	<div class="dot">	
+		<i class="d1 fas fa-circle"></i>
+		<i class="d2 fas fa-circle" aria-hidden="true"></i>
+		<i class="d3 fas fa-circle" aria-hidden="true"></i>
+	</div>
+</div>
+
+
+
+<!-- About -->
+	<section class="mt-5" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="p-5 col-lg-6 txxt">
+					<p>01//ABOUT</p>
+					<h1 class="text-danger" style="font-size: 64px; font-family: 'Lato', sans-serif;">We all want our jobs to run smoothly</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris</p>
+					<button class="btn btn-danger">LEARN MORE</button>
+				</div>
+				<div class="p-5 col-lg-6">
+					<img class="mt-5 aboutimg" src="about.jpg" alt="about Image">
+					<div class="zindex"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Feature -->
+	<section id="feature" class="container">
+		<div class="container text-center">
+			<p>02 // FEATURES</p>
+			<h1 class="text-danger" style="font-size: 64px; font-family: 'Lato', sans-serif;">Be on the same page</h1>
+		</div>
+		<!-- card icon -->
+		<div class="row text-center py-5 my-5">
+			<div class="col-md-4">
+				<div class="org">
+					<p><i class="fa fa-list icon" aria-hidden="true"></i></p>
+					<p class="p">Stay organised</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="org">
+					<p><i class="fa fa-fighter-jet icon" aria-hidden="true"></i></p>
+					<p class="p">Be More Productive</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="org">
+					<p><i class="fa fa-users icon" aria-hidden="true"></i></p>
+					<p class="p">Collaborate</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="px-5 col-lg-6">
+				<img class="mt-5 aboutimg" src="about.jpg" alt="about Image">
+				<div class="zindex" style="z-index: -1; left: -32px; bottom: 220; width: 100%"></div>
+			</div>
+			<div class="px-5 col-lg-6 txxt">
+			<h1 class="text-danger" style="font-size: 50px; font-family: 'Lato', sans-serif;">Add your structure to daily task</h1>
+			<b class="mt-5">To do list</b>
+			<p class="mt-3">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			<b >Track your meetings</b>
+			<p class="mt-3">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</div>
+		</div>
+	</section>
+
+	<!-- Dashboard -->
+	<section class="text-center" id="dashboard" style="background: lightgrey;">
+		<div class="container">
+			<p style="padding-top: 90px;">02 // THE DASHBOARD</p>
+			<P class="p" style="color: #dc3545; font-size: 35px">Everythings work better</P>
+			<P class="p" style="color: #dc3545; font-size: 35px">When it looks better</P>
+			<img class="img-fluid" src="laptop.png" alt="Macbook">
+			<p class="py-5" style="font-family: 'Lato', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		</div>
+	</section>
+
+	<!-- Reviews -->
+	<section class="container text-center">
+		<p style="padding-top: 90px;">03 // THE Reviews</p>
+		<P class="p" style="font-size: 35px;padding: 0">A few words from our <span style="color: #dc3545; ">amazing</span><br>and trusting customer</P>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+				  <div class="card-body">
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+				<img class="card-img-top" src="p1.jpeg" alt="profile image cap" style="height: 80px; width: 80px;border-radius: 100px;">
+				<figcaption><b>Suzi Huller</b><p>Illustre</p></figcaption>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+				  <div class="card-body">
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+				<img class="card-img-top" src="p2.jpeg" alt="profile image cap" style="height: 80px; width: 80px;border-radius: 100px;">
+				<figcaption><b>Suzi Huller</b><p>Illustre</p></figcaption>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+				  <div class="card-body">
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+				<img class="card-img-top" src="p3.jpg" alt="profile image cap" style="height: 80px; width: 80px;border-radius: 100px;">
+				<figcaption><b>Suzi Huller</b><p>Illustre</p></figcaption>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Launch Portion -->
+	<section class="" style="background-image: linear-gradient(to right,red, #ff005e);">
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-sm-9 px-3">
+					<p class="text-white font-weight-bold">Did you want to be notified when we launch</p>
+				</div>
+				<div class="col-sm-3">
+					<button class="btn btn-light text-danger" type="button">SIGN UP</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Form -->
+	<!--  -->
+
+	<section class="fluid-container" style="background-image: url(dark2.jpg); background-repeat: no-repeat; background-size: cover">
+		<div class="container border-light text-justify text-white py-5" >
+			<div class="row">
+				<div class="col-md-6 p-5 mt-5 text-center">
+				    	<p>05 // SIGN UP</p>
+						<p style="font-size: 40px; font-family: 'Lato', sans-serif; color: white; margin: 0;">Get creative with this revolutionary tool</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</div>
+				<div class="col-md-6">
+					<form class="forrm mt-5">
+						<label>NAME</label><br>
+						<input class="form-control innp" type="text" name="name"><br>
+						<label>EMAIL ADDRESS<span style="color: red">*</span></label><br>
+						<input class="form-control innp" type="email" name="email"><br>
+						<label>MESSAGE<span style="color: red">*</span></label><br>
+						<textarea class="innp form-control" rows="2" cols="20" name="comment"></textarea><br><br>
+						<input class="form-control btn-danger text-white bttn" type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section><br>
+
+	<!-- Footer -->
+	<section>
+	<footer id="footer">
+		<div class="row text-center">
+			<div class="col-md-4 mt-5">
+				<P style="color: #ff005e">
+					<i style="font-size: 25px; padding: 15px;" class="fa fa-heart" aria-hidden="true"></i>
+					<i style="font-size: 25px; padding: 15px;" class="fa fa-heart" aria-hidden="true"></i>
+					<i style="font-size: 25px; padding: 15px;" class="fa fa-heart" aria-hidden="true"></i>
+					<i style="font-size: 25px; padding: 15px;" class="fa fa-heart" aria-hidden="true"></i>
+				</P>
+			</div>
+			<div class="col-md-4">
+				<p style="font-size: 30px; font-family: 'Lato', sans-serif; color: #ff005e; margin: 0;">oslo</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<span class="icon" style="font-size: 12px;"><i class="fa fa-heart" aria-hidden="true"></i></span> sed do eiusmod</p>
+			</div>
+			<div class="col-md-4">
+				<nav style="margin-top: 50px;">
+				<a style="color: black; padding: 10px;" href="#feature">FEATURES</a>
+				<a style="color: black; padding: 10px;" href="reviews">REVIEWS</a>
+				<a style="color: black; padding: 10px;" href="#signup">SIGN UP</a>
+			</nav>
+			</div>
+		</div>
+	</footer>
+</section>
+</body>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="main.js"></script>
+</html>
