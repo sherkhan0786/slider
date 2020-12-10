@@ -29,25 +29,6 @@
     border: none;
 }
 
-
-/* #slideshow {
-    width: 100%;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
-}
-.slide {
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
-
-/* .arrow{
-    position: absolute;
-} */
- 
 .arrowLeft{
     color: white;
     position: absolute;
@@ -67,9 +48,8 @@
 .dot{
     position: absolute;
     bottom: 15%;
-    left: 45%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    /* background: green; */
     width: 15%;
 }
 
@@ -78,8 +58,7 @@
     position: absolute;
     top: 50%;
     z-index: 55;
-    /* font-size: 40px; */
-    right: 0px;
+    left: 0px;
 }
 
 .d2{
@@ -87,8 +66,7 @@
     position: absolute;
     top: 50%;
     z-index: 55;
-    /* font-size: 40px; */
-    right: 30px;
+    left: 30px;
 }
 
 .d3{
@@ -96,8 +74,7 @@
     position: absolute;
     top: 50%;
     z-index: 55;
-    /* font-size: 40px; */
-    right: 60px;
+    left: 60px;
 } 
 
 
@@ -122,4 +99,12 @@
     list-style-type: none;
     width: 1340px;
     height: 500px;
+}
+
+.activeAll{
+    color: white;
+}
+
+.active1{
+    color: yellow;
 }
